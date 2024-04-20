@@ -1,0 +1,84 @@
+@import "../color";
+@import "../frame";
+
+.event-chart {
+  height: 25%;
+  width: 100%;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+.event-table-border {
+  width: 100%;
+  height: 225px;
+}
+
+.event-table {
+  opacity: 0.8;
+  border-radius: 10px;
+  @include no-access;
+}
+
+.event-process-row {
+  margin-top: 10px;
+}
+
+.event-process-info {
+  background-color: $tableTitleColor;
+  border-radius: 10px;
+}
+
+.event-process-table-title-border {
+  background-color: $tableTitleColor;
+  border-radius: 5px;
+  height: 35px;
+  opacity: 0.8;
+}
+
+.event-process-button {
+  width: 50%;
+  margin-top: 10px;
+  margin-left: 25%;
+}
+
+.event-process-select {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.event-process-info-desp {
+  @include no-access;
+}
+
+.event-table-title {
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+  color: $generalTextColor;
+  font-weight: bold;
+  @include no-access;
+}
+
+.event-table {
+  opacity: 0.8;
+  border-radius: 10px;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.event-table-title-border {
+  background-color: $tableTitleColor;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.event-table-title {
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+  color: $generalTextColor;
+  font-weight: bold;
+  @include no-access;
+}

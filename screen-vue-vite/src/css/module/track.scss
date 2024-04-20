@@ -1,0 +1,45 @@
+@import "../color";
+@import "../frame";
+
+.track-table {
+  opacity: 0.8;
+  border-radius: 10px;
+  @include no-access;
+}
+
+.track-table-title-border {
+  background-color: $tableTitleColor;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.track-table-title {
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+  color: $generalTextColor;
+  font-weight: bold;
+  @include no-access;
+}
+
+.track-search-input {
+  width: 100%;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+.track-history-tag {
+  margin-top: 10px;
+  @include no-access;
+}
+
+.track-query-table-frame {
+  margin-top: 15px;
+  width: 100%;
+}
+
+.track-search-title-row {
+  margin-top: 20px;
+}

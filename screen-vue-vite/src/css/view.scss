@@ -1,0 +1,64 @@
+@import "frame";
+@import "color";
+
+.main-layout {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-layout-header {
+  height: 8%;
+  background-color: $mainToolbarColor;
+  display: flex;
+  flex-direction: column;
+  position: static;
+}
+
+.main-toolbar {
+  @include full-frame;
+  position: relative;
+}
+
+.main-toolbar-back {
+  margin-top: 8px;
+  margin-left: 8px;
+  position: absolute;
+}
+
+.main-toolbar-img {
+  height: 70%;
+  width: 100%;
+  @include no-access;
+}
+
+.main-toolbar-title {
+  text-align: center;
+  @include no-access;
+}
+
+.main-toolbar-title-text {
+  color: $generalTextColor;
+  font-size: 25px;
+}
+
+.main-toolbar-button {
+  background-color: $mainToolbarButtonColor;
+  border-color: $mainToolbarButtonBorderColor;
+  border-width: 2px;
+  color: $mainToolbarButtonTextColor;
+  opacity: 0.9;
+}
+
+.main-layout-content {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  position: static;
+}
+
+#cesiumContainer {
+  overflow: hidden;
+  position: relative;
+  @include full-frame
+}

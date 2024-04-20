@@ -1,0 +1,14 @@
+html, body, #app {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.cesium-viewer-toolbar,
+.cesium-viewer-animationContainer,
+.cesium-viewer-timelineContainer,
+.cesium-widget-credits,
+.cesium-viewer-bottom {
+    display: none !important;
+}

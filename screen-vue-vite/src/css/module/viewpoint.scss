@@ -1,0 +1,17 @@
+@import "../color";
+@import "../frame";
+
+.view-point-back {
+  background-color: $frameCardColor;
+}
+
+.view-point-row {
+  margin-top: 10px;
+}
+
+.time-point-title {
+  margin-top: 9px;
+  text-align: center;
+  color: $viewpointTimeColor;
+  opacity: 0.8;
+}

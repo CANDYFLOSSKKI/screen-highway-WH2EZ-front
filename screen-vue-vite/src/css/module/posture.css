@@ -1,0 +1,256 @@
+#app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.left-frame {
+  left: 0.6%;
+  height: 89%;
+  width: 26.5%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.right-frame-device {
+  left: 73%;
+  height: 52%;
+  width: 26.4%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.full-frame-posture {
+  height: 89%;
+  width: 98.8%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.right-frame-home {
+  left: 73%;
+  height: 70%;
+  width: 26.4%;
+  margin-top: 10px;
+  margin-right: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.right-bottom-frame {
+  top: 90%;
+  left: 79%;
+  height: 3%;
+  width: 18%;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.middle-down-frame {
+  left: 27.6%;
+  top: 59%;
+  height: 38%;
+  width: 40%;
+  margin-top: 10px;
+  border-radius: 20px;
+  position: absolute;
+}
+
+.frame-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  border: 1px solid rgba(70, 70, 70, 0.7);
+  border-radius: 20px;
+  background-color: rgba(70, 70, 70, 0.7);
+}
+
+.card-layout {
+  width: 100%;
+  height: 100%;
+}
+.card-layout .card-layout-header {
+  height: 10%;
+  width: 100%;
+}
+.card-layout .card-layout-content {
+  height: 90%;
+  width: 100%;
+}
+
+.card-icon {
+  color: cornflowerblue;
+}
+
+.card-off-icon {
+  color: aliceblue;
+}
+.card-off-icon:hover {
+  color: cornflowerblue;
+  cursor: pointer;
+}
+
+.card-title {
+  margin-left: 5px;
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.middle-card-title {
+  color: aliceblue;
+  font-size: 20px;
+  font-weight: bold;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.gradient-line {
+  margin-top: 5px;
+  width: 40%;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to right, aliceblue, cornflowerblue);
+}
+
+.middle-gradient-line {
+  margin-top: 5px;
+  width: 26%;
+  height: 3px;
+  border-radius: 5px;
+  background: linear-gradient(to right, aliceblue, cornflowerblue);
+}
+
+.search-datetime {
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+.search-section {
+  margin-top: 10px;
+  border-radius: 5px;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.posture-part-tab {
+  margin-top: 15px;
+}
+
+.posture-part-tab-menu {
+  height: 58px;
+  background-color: rgba(5, 5, 5, 0.5);
+  opacity: 0.9;
+}
+
+.posture-part-frame {
+  width: 100%;
+  height: 100%;
+}
+
+.posture-speed-tip-title {
+  font-size: 14px;
+  margin-top: 3px;
+  color: aliceblue;
+}
+
+.posture-speed-tip-data {
+  color: yellow;
+  font-size: 18px;
+}
+
+.posture-chart-height-adjust {
+  height: 20%;
+  width: 100%;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+.posture-all-toolbar-text {
+  margin-top: 6px;
+  font-size: 16px;
+}
+
+.posture-all-toolbar-icon {
+  margin-top: 2px;
+}
+
+.posture-all-content {
+  margin-top: 20px;
+  width: 100%;
+  height: 100%;
+}
+
+.posture-all-part-card {
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 0 0 5px 5px;
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: rgba(70, 70, 70, 0.7);
+  height: 95%;
+  width: 100%;
+  opacity: 0.9;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.posture-all-part-card-tip {
+  background-color: rgba(30, 30, 30, 0.5);
+  border-radius: 5px 5px 0 0;
+  border-width: 1px 1px 0 1px;
+  border-style: solid;
+  border-color: rgba(70, 70, 70, 0.7);
+  height: 100%;
+  width: 99.9%;
+  opacity: 0.9;
+  padding-left: 1px;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+}
+
+.posture-all-part-card-title {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-radius: 5px;
+  background-color: rgba(70, 70, 70, 0.7);
+}
+
+.posture-congestion-sub-data-row-up {
+  margin-top: 20px;
+}
+
+.posture-congestion-sub-data {
+  color: aliceblue;
+  font-size: 15px;
+}
+
+.posture-congestion-sub-data-num {
+  color: aliceblue;
+  font-size: 16px;
+}
+
+.posture-congestion-sub-data-row-down {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.posture-chart {
+  height: 20%;
+  width: 100%;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=posture.css.map */

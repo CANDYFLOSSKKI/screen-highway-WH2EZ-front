@@ -1,0 +1,88 @@
+@import "color";
+@import "frame";
+
+.data-statistic {
+  background-color: $tableTitleColor;
+  height: 20%;
+  width: 100%;
+  margin-top: 15px;
+  opacity: 0.9;
+  @include no-access;
+}
+
+.data-statistic-title {
+  margin-top: 10px;
+  height: 40%;
+  width: 100%;
+}
+
+.data-statistic-title-next {
+  height: 40%;
+  width: 100%;
+}
+
+.data-statistic-sub-title {
+  margin-top: 3px;
+  height: 40%;
+  width: 100%;
+}
+
+.data-statistic-data {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  height: 60%;
+  width: 100%;
+}
+
+.data-statistic-data-next {
+  margin-top: 10px;
+  margin-bottom: 3px;
+  height: 60%;
+  width: 100%;
+}
+
+.data-statistic-title-text {
+  color: $generalTextColor;
+  text-align: center;
+  font-size: 15px;
+}
+
+.data-statistic-data-text {
+  text-align: center;
+  font-size: 25px;
+}
+
+.data-statistic-next {
+  background-color: $tableTitleColor;
+  height: 20%;
+  width: 100%;
+  opacity: 0.9;
+  @include no-access;
+}
+
+.data-statistic-next-tip {
+  background-color: $tableTitleColor;
+  height: 20%;
+  width: 100%;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  opacity: 0.9;
+  @include no-access;
+}
+
+.data-statistic-title-posture {
+  margin-top: 25px;
+  height: 40%;
+  width: 100%;
+}
+
+.data-statistic-data-posture {
+  margin-top: 25px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.data-layout-half-part {
+  height: 50%;
+  width: 100%;
+}

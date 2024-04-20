@@ -1,0 +1,15 @@
+@import "../color";
+@import "../frame";
+
+.radar-search-picker {
+  margin-top: 15px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.radar-chart {
+  height: 20%;
+  width: 100%;
+  margin-top: 15px;
+  opacity: 0.9;
+}

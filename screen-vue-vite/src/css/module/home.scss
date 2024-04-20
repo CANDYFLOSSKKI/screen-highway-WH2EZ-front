@@ -1,0 +1,79 @@
+@import "../color";
+@import "../frame";
+
+.frame-card-home-left-up {
+  height: 40%;
+  width: 100%;
+  position: relative;
+  border: 1px solid $frameCardColor;
+  border-radius: 20px;
+  background-color: $frameCardColor;
+}
+
+.frame-card-home-left-down {
+  margin-top: 10px;
+  height: 59.8%;
+  width: 100%;
+  position: relative;
+  border: 1px solid $frameCardColor;
+  border-radius: 20px;
+  background-color: $frameCardColor;
+}
+
+.home-img {
+  height: 95%;
+  width: 95%;
+  @include no-access;
+  filter: drop-shadow(2px 4px 12px $homeImgShadowColor);
+}
+
+.home-img-item {
+  @include full-frame;
+  @include no-access;
+  filter: drop-shadow(2px 4px 12px $homeImgShadowColor);
+}
+
+.home-device-top-row {
+  margin-top: 5px;
+  @include no-access;
+}
+
+.home-statistic-title-text {
+  color: $generalTextColor;
+  text-align: center;
+  font-size: 16px;
+}
+
+.home-statistic-data-text {
+  text-align: center;
+  font-size: 32px;
+}
+
+.home-device-middle-row {
+  @include no-access;
+}
+
+.home-event-chart {
+  margin-top: 10px;
+  height: 20%;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.home-event-bar-chart,
+.home-event-chart-right-sep {
+  margin-top: 15px;
+}
+
+.home-device-down-row,
+.home-event-chart-right,
+.home-car-flow-chart,
+.home-car-speed-chart,
+.home-car-type-chart {
+  margin-top: 10px;
+  @include no-access;
+}
+
+.home-device-all-col {
+  margin-top: 30px;
+}

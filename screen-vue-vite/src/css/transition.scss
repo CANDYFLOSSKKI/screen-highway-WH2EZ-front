@@ -1,0 +1,41 @@
+@import "animate/animate";
+
+.leftin-enter-active {
+  @include fadeInLeft();
+}
+
+.leftin-leave-active {
+  @include fadeOutLeft();
+}
+
+.rightin-enter-active {
+  @include fadeInRight();
+}
+
+.rightin-leave-active {
+  @include fadeOutRight();
+}
+
+.topin-enter-active {
+  @include fadeInUp();
+}
+
+.topin-leave-active {
+  @include fadeOutUp();
+}
+
+.bottomin-enter-active {
+  @include fadeInDown();
+}
+
+.bottomin-leave-active {
+  @include fadeOutDown();
+}
+
+.wholein-enter-active {
+  @include fadeIn();
+}
+
+.wholein-leave-active {
+  @include fadeOut();
+}

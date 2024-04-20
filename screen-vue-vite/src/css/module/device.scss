@@ -1,0 +1,65 @@
+@import "../color";
+@import "../frame";
+
+.device-timeout-chart {
+  height: 20%;
+  width: 100%;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+.device-table {
+  opacity: 0.8;
+  border-radius: 10px;
+  @include no-access;
+}
+
+.device-table-title-border {
+  background-color: $tableTitleColor;
+  border-radius: 5px;
+  height: 35px;
+  margin-top: 15px;
+  opacity: 0.8;
+}
+
+.device-table-title {
+  line-height: 35px;
+  text-align: center;
+  font-size: 16px;
+  color: $generalTextColor;
+  font-weight: bold;
+  @include no-access;
+}
+
+.device-timeout-chart-tag {
+  margin-top: 4px;
+  @include no-access;
+}
+
+.device-location {
+  margin-top: 10px;
+  @include full-frame;
+}
+
+.device-location-hot {
+  background-color: $tableTitleColor;
+  @include full-frame;
+  margin-top: 15px;
+  opacity: 0.9;
+}
+
+.device-location-hot-title {
+  margin-top: 6px;
+  margin-left: 15px;
+  color: $generalTextColor;
+  font-size: 16px;
+  @include no-access;
+}
+
+.device-timeout-chart-v {
+  position: relative;
+}
+
+.device-timeout-chart-tag-col {
+  position: absolute;
+}
